@@ -7,7 +7,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
 	res.statusCode = 200;
 	res.setHeader('Content-Type', 'text/plain');
-	console.log("===============Reached Server================== \n");
+	console.log("===============Reached Server===================== \n");
 	res.end(message);
 });
 
